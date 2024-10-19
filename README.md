@@ -19,17 +19,17 @@ a minecraft datapack to make display entites specific to a player
 ## to move a personal display block, use the function bdjfm:move
 
  ex: /function bdjfm:move {tag:"hub",type:"tp",dx:0,dy:10,dz:80}
-    will tp at (0,10,80) the personal entity display with tag "hub"
+ will tp at (0,10,80) the personal entity display with tag "hub"
 
   ex: /function bdjfm:move {tag:"up",type:"xyz",dx:0.5,dy:0,dz:0}
-    will move 0.5 blocks up the personal entity display with tag "up"
+  will move 0.5 blocks up the personal entity display with tag "up"
 
   ex: /function bdjfm:move {tag:"forward",type:"polar",dx:0,dy:0,dz:2}
-    will move 2 blocks forward the personal entity display with tag "forward"
+  will move 2 blocks forward the personal entity display with tag "forward"
 
 
 ## to execute a command by a personal display block, use the function bdjfm:execute
 
   ex: /function bdjfm:move {tag:"waw",cmd:"particle flame"}
-    will make a flame particle where the personal display entity with tag "hub" is displayed
+  will make a flame particle where the personal display entity with tag "hub" is displayed
 
